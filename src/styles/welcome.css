@@ -1,0 +1,14 @@
+.welcome {
+    background-color: #add8e6;
+    border-radius: 50%;
+    width: 150px;
+    padding: 5rem;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.welcome-message {
+    margin: 0;
+}
