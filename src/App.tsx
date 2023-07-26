@@ -1,13 +1,14 @@
 import "./App.css";
-import { Header } from "./components/Header";
-import { Welcome } from "./components/Welcome";
+import AppRoutes from "./AppRoutes";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <section className="app">
-      <Header />
       <div className="app__content">
-        <Welcome />
+        <BrowserRouter>
+          <AppRoutes />
+        </BrowserRouter>
       </div>
     </section>
   );
